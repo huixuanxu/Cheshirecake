@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <!--手機縮放版-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!--css連結-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body>
+  <!--LOADING-->
+  <!-- <div class="loading">
+  <div class="cssload-clock"></div>
+ </div> -->
+
+  <!--back top btn-->
+  <div class="backtop"> ▲ </div>
+  
+  <!--漢堡選單-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <!--<div class="container-fluid">-->
+      <a class="navbar-brand" href="index.html">
+        <img src="images/title.png" class="navbar-img">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="QA.html">Q&A</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+      <!--</div>-->
+    </nav>
+  </header>
+
+  <!--幻燈片-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/cheesecake01_微小.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pound cake</h5>
+          <p>Earl grey the best.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/cheesecake_02.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Brownie</h5>
+          <p>Chocolete the best.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/cheesecake05_幻燈片01.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Short cake</h5>
+          <p>Strawberry the best.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--商品資訊區-->
+  <div class="product-information" id="section01">
+    <!--熱門商品區-->
+    <div id="popular_product" class="block_bgc">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <p class="title text-left">♠  熱 門 商 品</p>
+            <hr class="title_line">
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-12 col-md-12 mx-auto">
+            <div class="pop_product">
+              <a href="product.html"><img src="images/product01.jpg" class="img-fluid rounded-4" alt="..."></a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div id="more" class="col-lg-3 col-md-3 col-3 mx-auto rounded-3">
+            <a href="product.html" class="morelink">
+              <h3>More</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--最新商品區-->
+    <div id="news" class="block_bgc">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <p class="title text-left">♥ 新 品 上 市</p>
+            <hr class="title_line">
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-12 col-md-12 col-12 mx-auto">
+            <div class="newproduct">
+              <a href="product.html"><img src="images/sample01.jpg" class="img-fluid rounded-4" alt="..."></a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div id="more" class="col-lg-3 col-md-3 col-3 mx-auto rounded-3">
+            <a href="product.html" class="morelink">
+              <h3>More</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--原料製作介紹-->
+  <div class="ingredients" id="section02">
+    <!--原料介紹-->
+    <div id="ing_part01" class="block_bgc">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <p class="title text-left">♣ 製 作</p>
+            <hr class="title_line">
+          </div>
+        </div>
+        <div class="row gy-3 gx-5">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <div class="ing01img text-center wow animate__animated animate__fadeInLeft">
+              <img src="images/milk.jpeg" class="rounded">
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12 my-auto wow animate__animated animate__fadeInRight">
+            <div class="ing01text">
+              <p>採用紐西蘭進口的奶酪</p>
+              <p>用新鮮的原料製作每一份產品</p>
+              <p>嚴格把關每一個步驟</p>
+              <p>堅持呈現最好的產品</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--理想-->
+    <div id="ing_part02" class="block_bgc">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="title text-left">♦ 理 想</p>
+            <hr class="title_line">
+          </div>
+        </div>
+        <div class="ing_part02_reverse">
+          <div class="row gy-3 gx-5">
+            <div class="col-lg-7 col-md-7 col-sm-12 my-auto wow animate__animated animate__fadeInLeft">
+              <div class="ing01text">
+                <p>以乳酪蛋糕為主打商品</p>
+                <p>加入創意巧思</p>
+                <p>打造出愛麗絲夢遊仙境的主題店面</p>
+                <p>讓顧客能在仙境中享用美味的甜點</p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <div class="ing01img text-center wow animate__animated animate__fadeInRight">
+                <img src="images/ing02_sm.jpg" class="rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 c0l-md-12 col-12">
+            <div class="connection text-center">
+              <p>電話:02-123456789</p>
+              <p>地址:台北市大安區和平東路二段134號</p>
+              <p></p>
+              <hr class="title_line">
+            </div>
+            <div class="media">
+              <div class="mediaicon rounded-2">
+                <a href="https://www.facebook.com/groups/1517468085196003" target="_blank">
+                  <img src="images/fb01.png" class="rounded-2">
+                </a>
+              </div>
+              <div class="mediaicon rounded-2">
+                <a href="https://www.instagram.com/ntuedtd_ig/" target="_blank">
+                  <img src="images/ig01.png" class="rounded-2">
+                </a>
+              </div>
+              <div class="mediaicon rounded-2">
+                <a href="https://dtd.ntue.edu.tw/chsyu/f2ecourse.html?fbclid=IwAR0DfKE8Eajn7f25Co6O2ePeAnH7MgAMnfaGIEJUmIx1gomWQAkXkbUvCOU" target="_blank">
+                  <img src="images/twitter01.png" class="rounded-2">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</div>
+
+  <!--js連結-->  
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jQuery.js"></script>
+  <!-- <script href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init(); </script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
