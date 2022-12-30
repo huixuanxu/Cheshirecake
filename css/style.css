@@ -180,9 +180,9 @@ body {
 }
 
 
-#carouselExampleCaptions{
+/* #carouselExampleCaptions{
    margin-top: 70px;
-}
+} */
 
 .backtop{
     display: none;
@@ -318,19 +318,19 @@ body {
     transform:scale(1.1,1.1);
 }
 
-.navbar-toggler{
+/* .navbar-toggler{
     position: fixed;
     right:20px;
     top:5px;
-}
+} */
 
 header{
     z-index: +10;
     width: 100%;
-    position: fixed;
+/*     position: fixed;
     top: 0;
     left: 0;
-    padding: 0;
+    padding: 0; */
 }
 
 .row {
@@ -341,7 +341,7 @@ header{
 .block_bgc {
     /* height: 100vh; */
     width: 100%;
-    padding: 90px 0 40px 0;
+    padding: 40px 0 40px 0;
     /* margin: 45px auto; */
     background-color: #fbf7e9;
     display: flex;
